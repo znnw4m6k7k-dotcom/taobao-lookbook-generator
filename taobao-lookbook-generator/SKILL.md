@@ -54,7 +54,7 @@ The model must be an adult whose likeness is authorized by the user for AI gener
 6. Preserve complete-set boundaries. A set must always contain its supplied top and bottom; never merge it into a dress/jumpsuit, remove a piece, swap a piece, or recolor it.
 7. Natural pose-created folds and drape may change, but they must not alter construction, proportions, print, fabric character, or perceived fit.
 
-For each non-detail shot, select a coverage-compatible pose from the twelve-pose library and record its `pose_id` in the prompt and manifest attempt. Aim to avoid pose reuse across the set. Never invent a pocket, strap, accessory, or garment behavior to satisfy a pose; source truth and shot purpose always take priority.
+For each of the twelve person-centric shots, draw a coverage-compatible pose card from the twelve-pose library and record its `pose_id` in the prompt and manifest attempt. Draw card-style across the set and avoid reuse where evidence allows. Never invent a pocket, strap, accessory, or garment behavior to satisfy a pose; source truth and shot purpose always take priority.
 
 For every studio shot, apply the high-key minimalist studio style lock unchanged. It governs the seamless white/light cool-gray background, broad diffused lighting, 70–85mm perspective, chest-to-waist camera height, f/5.6–f/8 depth of field, bright controlled exposure, restrained tonality, negative space, realistic texture, and strict negative constraints. It never overrides identity, product, or styling truth.
 

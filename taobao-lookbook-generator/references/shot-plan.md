@@ -2,7 +2,7 @@
 
 All outputs are separate, highest-quality JPG files at 1536 × 2048 px (3:4). Keep the same person, primary product, complete styling, color, hair, makeup, and body proportions throughout. Actions must be materially different; facial expression may change only slightly and naturally.
 
-For the twelve person-centric shots, select a compatible pose from [pose-library.md](pose-library.md), record its `pose_id`, and avoid reuse where evidence allows. The four `ST-DETAIL-*` shots do not use full-body pose prompts. Shot coverage, product truth, and visibility of defining features override pose variety.
+For the twelve person-centric shots, draw a compatible pose card from the twelve cards in [pose-library.md](pose-library.md), record its `pose_id`, and avoid reuse where evidence allows. The four `ST-DETAIL-*` shots do not use full-body pose prompts. Shot coverage, product truth, and visibility of defining features override pose variety.
 
 | Shot ID | Environment | Coverage | Non-negotiable purpose |
 |---|---|---|---|

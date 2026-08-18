@@ -1,6 +1,6 @@
 # Twelve-pose fashion lookbook library
 
-Use this library for the twelve person-centric shots in the fixed plan. Do not apply these full-body poses to the four product-detail shots. Aim to use each pose once when it is compatible with the assigned camera coverage, garment construction, and supplied styling; evidence compatibility takes priority over using every pose.
+Use this twelve-card library as a pose draw deck for the twelve person-centric shots in the fixed plan. Draw a coverage-compatible card for each person shot and avoid replacement/reuse where evidence allows. Do not apply these full-body poses to the four product-detail shots. Evidence compatibility takes priority over using every pose.
 
 Record the selected `pose_id` in the shot prompt and manifest attempt. Do not invent a pocket, strap, accessory, or garment behavior merely to satisfy a pose. Skip or adapt a pose when it would hide a defining feature, distort the garment, or conflict with the assigned front/side/back view.
 
