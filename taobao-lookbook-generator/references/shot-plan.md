@@ -2,6 +2,8 @@
 
 All outputs are separate, highest-quality JPG files at 1536 × 2048 px (3:4). Keep the same person, primary product, complete styling, color, hair, makeup, and body proportions throughout. Actions must be materially different; facial expression may change only slightly and naturally.
 
+For the twelve person-centric shots, select a compatible pose from [pose-library.md](pose-library.md), record its `pose_id`, and avoid reuse where evidence allows. The four `ST-DETAIL-*` shots do not use full-body pose prompts. Shot coverage, product truth, and visibility of defining features override pose variety.
+
 | Shot ID | Environment | Coverage | Non-negotiable purpose |
 |---|---|---|---|
 | `ST-FRONT-01` | studio | full body front | Neutral hero; complete outfit and front construction clear |
@@ -35,4 +37,3 @@ When an authoritative detail image shows embroidery, print, unusual hardware, sp
 
 - Studio: light gray-white seamless backdrop, soft even light, restrained natural floor shadow, no furniture or props.
 - Street: clean modern city street, natural daylight, uncluttered background, no prominent pedestrians, vehicles, shop signs, advertisements, or visible trademarks.
-

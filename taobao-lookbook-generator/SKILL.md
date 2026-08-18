@@ -17,7 +17,7 @@ When this skill has just been installed and the user requests instructions, read
 - No text, watermark, collage, visible third-party logo, or invented branding.
 - Only images graded A by `$taobao-lookbook-reviewer` enter `final/`.
 
-Read [references/input-contract.md](references/input-contract.md) for source roles and stop conditions. Read [references/shot-plan.md](references/shot-plan.md) and the mandatory studio treatment in [references/high-key-minimal-studio.md](references/high-key-minimal-studio.md) before planning or generating a job.
+Read [references/input-contract.md](references/input-contract.md) for source roles and stop conditions. Read [references/shot-plan.md](references/shot-plan.md), [references/pose-library.md](references/pose-library.md), and the mandatory studio treatment in [references/high-key-minimal-studio.md](references/high-key-minimal-studio.md) before planning or generating a job.
 
 ## Mandatory preflight
 
@@ -53,6 +53,8 @@ The model must be an adult whose likeness is authorized by the user for AI gener
 5. Generate only one distinct shot per call. Do not request a collage or a batch grid.
 6. Preserve complete-set boundaries. A set must always contain its supplied top and bottom; never merge it into a dress/jumpsuit, remove a piece, swap a piece, or recolor it.
 7. Natural pose-created folds and drape may change, but they must not alter construction, proportions, print, fabric character, or perceived fit.
+
+For each non-detail shot, select a coverage-compatible pose from the twelve-pose library and record its `pose_id` in the prompt and manifest attempt. Aim to avoid pose reuse across the set. Never invent a pocket, strap, accessory, or garment behavior to satisfy a pose; source truth and shot purpose always take priority.
 
 For every studio shot, apply the high-key minimalist studio style lock unchanged. It governs the seamless white/light cool-gray background, broad diffused lighting, 70–85mm perspective, chest-to-waist camera height, f/5.6–f/8 depth of field, bright controlled exposure, restrained tonality, negative space, realistic texture, and strict negative constraints. It never overrides identity, product, or styling truth.
 
