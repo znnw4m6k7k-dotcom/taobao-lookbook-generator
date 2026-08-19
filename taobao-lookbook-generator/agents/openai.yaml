@@ -1,6 +1,0 @@
-interface:
-  display_name: "淘宝 Lookbook 生图 Agent"
-  short_description: "锁定人物、商品与完整穿搭，生成淘宝棚拍及街拍高清成片"
-  default_prompt: "Use $taobao-lookbook-generator to generate a product-faithful 16-image Taobao lookbook from the supplied model, garment, detail, and styling references."
-policy:
-  allow_implicit_invocation: true
