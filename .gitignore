@@ -32,3 +32,4 @@ examples/jobs/
 # Temporary files
 *.tmp
 .cache/
+taobao-lookbook-generator/
