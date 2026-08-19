@@ -34,18 +34,21 @@ Generate professional Taobao apparel lookbook images with AI. Supports standard,
 - [Codex](https://codex.anthropic.com) 已安装
 - 推荐同时安装 `taobao-lookbook-reviewer` skill
 
-### 使用 Codex 安装
+### 在 Codex 聊天窗口安装（推荐）
 
-```bash
-# 在 Codex 中执行
-/install-skill https://github.com/YOUR_USERNAME/taobao-lookbook-generator
+把下面一整句话复制粘贴到 Codex 聊天窗口：
+
+```text
+请使用 $skill-installer 从 https://github.com/znnw4m6k7k-dotcom/taobao-lookbook-generator 安装；安装成功后读取 ~/.codex/skills/taobao-lookbook-generator/references/使用说明-中文.md，并在当前聊天窗口给我一份完整中文说明书和首次使用示例。
 ```
 
-或手动安装：
+安装成功后，Skill 会在下一轮对话可用。建议同时安装配套审图 Skill：`taobao-lookbook-reviewer`。
+
+### 手动安装
 
 ```bash
 cd ~/.codex/skills/
-git clone https://github.com/YOUR_USERNAME/taobao-lookbook-generator.git
+git clone https://github.com/znnw4m6k7k-dotcom/taobao-lookbook-generator.git
 ```
 
 ## 快速开始 | Quick Start
