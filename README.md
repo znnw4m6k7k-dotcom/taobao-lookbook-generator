@@ -6,6 +6,8 @@
 
 Generate professional Taobao apparel lookbook images with AI. Supports standard, premium, and custom scene modes.
 
+生成图片后，可用 [taobao-lookbook-reviewer](https://github.com/znnw4m6k7k-dotcom/taobao-lookbook-reviewer) 对照原始参考图独立审核。
+
 ## 功能特点 | Features
 
 ✨ **三种生成模式**
